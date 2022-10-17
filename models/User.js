@@ -12,9 +12,9 @@ User.init(
             // Use the special Sequelize DataTypes object provide what type of data it is
             type: DataTypes.INTEGER,
             // This is the equivalent of SQL's 'NOT NULL' option
-            allowNull: false;
+            allowNull: false,
             // Instruct that this is the Primary KEy
-            primaryKey: true;
+            primaryKey: true,
             // turn on auto increment
             autoIncrement: true
         },
